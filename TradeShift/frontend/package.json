@@ -1,0 +1,23 @@
+{
+  "name": "tradeshift-frontend",
+  "version": "1.0.0",
+  "description": "TradeShift - Financial Portfolio Management & Trading Platform Frontend",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 8081 -c-1 --cors -o",
+    "start": "http-server -p 8081 -c-1 --cors -o",
+    "preview": "http-server -p 8081 -c-1 --cors -o"
+  },
+  "keywords": [
+    "trading",
+    "portfolio",
+    "finance",
+    "stocks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

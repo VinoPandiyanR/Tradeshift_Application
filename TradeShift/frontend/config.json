@@ -1,0 +1,35 @@
+{
+  "api": {
+    "baseUrl": "http://localhost:8080",
+    "endpoints": {
+      "auth": {
+        "login": "/api/auth/login",
+        "register": "/api/auth/register",
+        "verifyOtp": "/api/auth/verify-otp",
+        "completeRegistration": "/api/auth/complete-registration",
+        "resendOtp": "/api/auth/resend-otp"
+      },
+      "account": {
+        "balance": "/api/account/balance",
+        "credit": "/api/account/credit"
+      },
+      "portfolio": "/api/portfolio",
+      "trades": {
+        "buy": "/api/trades/buy",
+        "sell": "/api/trades/sell"
+      },
+      "transactions": "/api/transactions",
+      "analytics": "/api/analytics/summary",
+      "search": "/api/search/stock"
+    }
+  },
+  "websocket": {
+    "endpoint": "/ws/prices",
+    "topicPrefix": "/topic/prices"
+  },
+  "ui": {
+    "updateInterval": 5000,
+    "theme": "dark"
+  }
+}
+
